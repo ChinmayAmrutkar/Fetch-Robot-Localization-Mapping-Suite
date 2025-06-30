@@ -1,0 +1,45 @@
+# === ROS Catkin Workspace Ignore File ===
+
+# Catkin build and development folders
+build/
+devel/
+install/
+log/
+
+# ROS-specific cache and logs
+*.pyc
+*.pyo
+*.swp
+*.swo
+*.bak
+*.orig
+
+# ROS launch logs
+*.log
+
+# Maps and generated data (keep only if you want to version-control them)
+*.pgm
+*.yaml
+
+# Editor and OS files
+*~
+.DS_Store
+.vscode/
+.idea/
+*.kate-swp
+
+# Python virtual environments
+venv/
+.env/
+
+# CMake generated files
+CMakeFiles/
+cmake_install.cmake
+CMakeCache.txt
+
+# QtCreator files
+*.user
+
+# Catkin tools workspace metadata
+.catkin_tools/
+
